@@ -1,0 +1,33 @@
+.Intro {
+  width:100vw;
+  height:130vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #E2F8F7;
+}
+.Introcontent {
+  width:90%;
+  margin: 20px auto 0px auto;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.upperimg {
+  margin-left:300px;
+  width:150px;
+  height:50px;
+
+}
+.lowerimg {
+  width:150px;
+  height:50px;
+  margin-right: 300px;
+
+}
+.mountain {
+  width: 600px;
+  height:500px;
+}

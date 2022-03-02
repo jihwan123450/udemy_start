@@ -1,0 +1,30 @@
+@import "header.css";
+@import "intro.css";
+@import "middlecontainer.css";
+@import "contactme.css";
+body {
+  margin:0;
+  height: 270vh;
+  font-family: verdana, sans-serif;
+}
+
+.Intro h1 {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 5rem;
+  margin:10px auto 10px auto;
+
+}
+
+.Intro h2 {
+  font-family: 'Pacifico', cursive;
+  font-size:1.5rem;
+    margin:10px auto 10px auto;
+    font-weight: normal;
+}
+
+h1,h2 {
+  color: #66BFBF;
+}
+h3,a {
+  color:#11999E;
+}

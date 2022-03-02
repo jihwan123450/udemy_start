@@ -1,3 +1,26 @@
+@import "variables.css";
+
+
 body {
-  background-color: red;
+  background-color: var(--backgroundcolor);
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width:10%;
+  position: absolute;
+  right: 50%;
+}
+.mypic{
+    transition : transform 1s ease-in-out;
+}
+.mypic:hover{
+  transform: scale(1.15) ;
+}
+
+.link:hover {
+  font-style:italic;
 }

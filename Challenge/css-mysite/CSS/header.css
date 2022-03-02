@@ -1,0 +1,21 @@
+.headercontent {
+  display: flex;
+  justify-content: space-between;
+  background-color: #E2F8F7;
+}
+.headercontent span{
+  display: block;
+  margin: 20px;
+  color:#11999E;
+
+}
+.headercontent>div{
+  margin: 15px;
+}
+.headercontent div:last-child {
+  width : 30%;
+  display: flex;
+  justify-content: : space-between;
+  align-items: flex-end;
+  justify-content: center;
+}

@@ -1,0 +1,104 @@
+.profile a:hover {
+  text-decoration: underline;
+  color: blue;
+  cursor: grabbing;
+}
+.profile
+{
+  width: 50%;
+  height: 250px;
+  margin: auto;
+}
+.profile h2{
+  text-align: center;
+}
+.middle-container h2{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Pacifico', cursive;
+  font-weight: normal;
+
+}
+/*first skill row*/
+.skills {
+  margin: none;
+  display: flex;
+  width: 100%;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.skill-row {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skillimg {
+  display: block;
+  width: 120px;
+  height: 120px;
+}
+
+.skill-row p {
+  width: 90%;
+}
+
+.skill-row ul {
+  width: 60%;
+  margin: 10px auto;
+}
+
+.skill-row h3 {
+  margin: 10px auto;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+/*second skill row*/
+.skillimg2 {
+  float: left;
+  width: 120px;
+  height: 120px;
+  margin-right: 30px;
+}
+
+.skill-row2 {
+margin-top: 50px;
+  width: 50%;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.skill-row2 h3 {
+
+  font-size: 25px;
+  font-weight: 800;
+}
+
+/*third skill row*/
+.skill-row3 {
+  height: 150px;
+  margin-top: 50px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  width:40%;
+  margin-left:auto;
+}
+
+.skillimg3 {
+  float: right;
+  width: 120px;
+  height: 120px;
+  margin-left: 30px;
+}
+.skill-row3 h3 {
+
+  font-size: 25px;
+  font-weight: 800;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width:100px;
+  margin:50px auto;
+}
